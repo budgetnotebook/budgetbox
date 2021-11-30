@@ -11,6 +11,8 @@ from collections import defaultdict
 import operator
 from django.db.models.functions import Concat
 from config.helpers.error_response import error_response
+from django.db.models.expressions import Value
+from django.db.models.fields import CharField
 
 class TransactionAdd(CustomLoginRequiredMixin, generics.CreateAPIView):
     queryset = Transaction.objects.all()
