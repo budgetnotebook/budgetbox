@@ -177,6 +177,7 @@ form input::placeholder {
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: absolute;
     }
 
     .landing-page form {
