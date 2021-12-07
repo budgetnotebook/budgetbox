@@ -16,7 +16,7 @@ Check out [API LIVE DEMO](https://budgetnotebook-backend.herokuapp.com/) here!!
 ## How to Install
 1. Git Clone
 ```
-git clone git@github.com:Tech-i-s/techis-wd-forum-django-react.git
+git clone https://github.com/budgetnotebook/budgetbox
 ```
 2. Backend setting
 ```
